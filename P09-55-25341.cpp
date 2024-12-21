@@ -1025,7 +1025,7 @@ void updateTimer() {
 
 	// Check if 1 second has passed since the last update
 	if (currentTime - lastUpdateTime >= 1.0f) {
-		if (gameTime > 0 && !player.invincible) {
+		if (gameTime > 0) {
 			gameTime--;  // Decrement the game time by 1 second
 		}
 		// Increment the score
